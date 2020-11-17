@@ -5,12 +5,11 @@ public class Main {
  
     public static void main(String[] args) throws IOException {
  
-         int a,b,c;
+        int a,b,c;
         Scanner input = new Scanner(System.in);
         a = input.nextInt();
         b = input.nextInt();
-        c =a+b;
-        System.out.printf("X = %d\n",c);
+        c = a + b;
+        System.out.printf("X = %d\n", c);
     }
- 
 }
